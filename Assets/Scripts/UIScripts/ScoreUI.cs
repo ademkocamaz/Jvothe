@@ -12,7 +12,7 @@ public class ScoreUI : MonoBehaviour {
         text = GetComponent<Text>();
 
         //initially set the text equal to the players current score
-        text.text = "Score: " + PlayerScore.score;
+        text.text = "Skor: " + PlayerScore.score;
     }
 
     void OnEnable()
@@ -25,7 +25,7 @@ public class ScoreUI : MonoBehaviour {
 	void UpdateText()
 	{
         //update the score
-        text.text = "Score: " + PlayerScore.score;
+        text.text = "Skor: " + PlayerScore.score;
 	}
 
     void OnDisable()

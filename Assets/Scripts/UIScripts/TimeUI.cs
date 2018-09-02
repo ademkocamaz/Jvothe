@@ -22,7 +22,7 @@ public class TimeUI : MonoBehaviour {
 	void UpdateText()
 	{
         //update the timer ui
-        text.text = "Time: " + TimeSurvived.time;
+        text.text = "Zaman: " + TimeSurvived.time;
 	}
 
     void OnDisable()

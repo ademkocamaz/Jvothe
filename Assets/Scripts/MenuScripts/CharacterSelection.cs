@@ -69,7 +69,7 @@ public class CharacterSelection : MonoBehaviour {
             case SHIP.THIRD:
 
                 //change the text to say locked to indicate that the ship hasn't been unlocked...
-                lockedText.text = "Locked";
+                lockedText.text = "Kilitli";
                 //...and show the amount of medals required to unlock the ship
                 medalAmountText.text = "x" + medalsForSmileShip;
 
@@ -98,7 +98,7 @@ public class CharacterSelection : MonoBehaviour {
         {
             case SHIP.FIRST:
 
-                lockedText.text = "Locked";
+                lockedText.text = "Kilitli";
                 medalAmountText.text = "x" + medalsForSmileShip;
 
                 if (TrophyCount.trophyCount >= medalsForSmileShip)
@@ -113,7 +113,7 @@ public class CharacterSelection : MonoBehaviour {
                 break;
             case SHIP.SECOND:
 
-                lockedText.text = "Locked";
+                lockedText.text = "Kilitli";
                 medalAmountText.text = "x" + medalsForFishShip;
 
                 if (TrophyCount.trophyCount >= medalsForFishShip)

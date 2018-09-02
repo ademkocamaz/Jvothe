@@ -63,7 +63,7 @@ public class LevelSelect : MonoBehaviour {
                 levelIndex = 1;
 
                 //...change the text to the name of the first level "Sunny"...
-                selectedLevel.text = "Sunny";
+                selectedLevel.text = "Güneşli";
                 //...change the colour to yellow... 
                 selectedLevel.color = Color.yellow;
 
@@ -81,7 +81,7 @@ public class LevelSelect : MonoBehaviour {
 
                 levelIndex = 2;
 
-                selectedLevel.text = "Misty";
+                selectedLevel.text = "Gizemli";
                 selectedLevel.color = Color.grey;
 
                 lockedText.text = "";
@@ -95,7 +95,7 @@ public class LevelSelect : MonoBehaviour {
 
                 levelIndex = 3;
 
-                selectedLevel.text = "Space";
+                selectedLevel.text = "Uzay";
                 selectedLevel.color = Color.magenta;
 
                 lockedText.text = "";
@@ -108,7 +108,7 @@ public class LevelSelect : MonoBehaviour {
             case LEVEL.DAWN:
 
                 //the text says locked to indicate that the player hasn't unlocked the stage
-                lockedText.text = "Locked";
+                lockedText.text = "Kilitli";
 
                 //if the player has the required amount of trophies to unlock the stage then change the level index to the selected stage,
                 //and remove the text that says "locked"
@@ -118,7 +118,7 @@ public class LevelSelect : MonoBehaviour {
                     lockedText.text = "";
                 }
 
-                selectedLevel.text = "Desert";
+                selectedLevel.text = "Çöl";
                 selectedLevel.color = new Color(1.0f, 0.85f, 0.7f);
 
                 //the text is changed to say the amount of medals required to unlock the stage
@@ -129,7 +129,7 @@ public class LevelSelect : MonoBehaviour {
                 break;
             case LEVEL.MOUNTAINS:
 
-                lockedText.text = "Locked";
+                lockedText.text = "Kilitli";
 
                 if (TrophyCount.trophyCount >= medalsForDawn)
                 {
@@ -137,7 +137,7 @@ public class LevelSelect : MonoBehaviour {
                     lockedText.text = "";
                 }
 
-                selectedLevel.text = "Dawn";
+                selectedLevel.text = "Şafak";
                 selectedLevel.color = new Color(0.7f, 0.2f, 0.2f);
 
                 medalAmountText.text = "x" + medalsForDawn;
@@ -147,7 +147,7 @@ public class LevelSelect : MonoBehaviour {
                 break;
             case LEVEL.GHOSTS:
 
-                lockedText.text = "Locked";
+                lockedText.text = "Kilitli";
 
                 if (TrophyCount.trophyCount >= medalsForMountains)
                 {
@@ -155,7 +155,7 @@ public class LevelSelect : MonoBehaviour {
                     lockedText.text = "";
                 }
 
-                selectedLevel.text = "Mountains";
+                selectedLevel.text = "Dağlar";
                 selectedLevel.color = Color.cyan;
 
                 medalAmountText.text = "x" + medalsForMountains;
@@ -182,7 +182,7 @@ public class LevelSelect : MonoBehaviour {
 
                 levelIndex = 2;
 
-                selectedLevel.text = "Misty";
+                selectedLevel.text = "Gizemli";
                 selectedLevel.color = Color.grey;
 
                 lockedText.text = "";
@@ -196,7 +196,7 @@ public class LevelSelect : MonoBehaviour {
 
                 levelIndex = 3;
 
-                selectedLevel.text = "Space";
+                selectedLevel.text = "Uzay";
                 selectedLevel.color = Color.magenta;
 
                 lockedText.text = "";
@@ -208,10 +208,10 @@ public class LevelSelect : MonoBehaviour {
                 break;
             case LEVEL.SPACE:
 
-                selectedLevel.text = "Desert";
+                selectedLevel.text = "Çöl";
                 selectedLevel.color = new Color(1.0f, 0.85f, 0.7f);
 
-                lockedText.text = "Locked";
+                lockedText.text = "Kilitli";
 
                 if (TrophyCount.trophyCount >= medalsForDesert)
                 {
@@ -226,10 +226,10 @@ public class LevelSelect : MonoBehaviour {
                 break;
             case LEVEL.DESERT:
 
-                selectedLevel.text = "Dawn";
+                selectedLevel.text = "Şafak";
                 selectedLevel.color = new Color(0.7f, 0.2f, 0.2f);
 
-                lockedText.text = "Locked";
+                lockedText.text = "Kilitli";
 
                 if (TrophyCount.trophyCount >= medalsForDawn)
                 {
@@ -244,10 +244,10 @@ public class LevelSelect : MonoBehaviour {
                 break;
             case LEVEL.DAWN:
 
-                selectedLevel.text = "Mountains";
+                selectedLevel.text = "Dağlar";
                 selectedLevel.color = Color.cyan;
 
-                lockedText.text = "Locked";
+                lockedText.text = "Kilitli";
 
                 if (TrophyCount.trophyCount >= medalsForMountains)
                 {
@@ -262,10 +262,10 @@ public class LevelSelect : MonoBehaviour {
                 break;
             case LEVEL.MOUNTAINS:
 
-                selectedLevel.text = "Ghosts";
+                selectedLevel.text = "Hayaletler";
                 selectedLevel.color = Color.white;
 
-                lockedText.text = "Locked";
+                lockedText.text = "Kilitli";
 
                 if (TrophyCount.trophyCount >= medalsForGhosts)
                 {

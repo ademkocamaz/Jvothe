@@ -47,7 +47,7 @@ public class CountdownManager : MonoBehaviour {
         }
         else if(countDown < 1.5f && countDown >= 0.5f)
         {
-            countDownText.text = "GO!";
+            countDownText.text = "BAŞLA!";
         }
         else if(countDown < 0.5f)
         {

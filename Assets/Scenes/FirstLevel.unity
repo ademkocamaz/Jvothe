@@ -318,6 +318,160 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1229187127}
+    - target: {fileID: 114000013160577132, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: f2e86a80ed450264a926d66affa25ed9,
+        type: 3}
+    - target: {fileID: 114000010772849676, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: f2e86a80ed450264a926d66affa25ed9,
+        type: 3}
+    - target: {fileID: 114000011120731130, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: f2e86a80ed450264a926d66affa25ed9,
+        type: 3}
+    - target: {fileID: 114000010638755010, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: f2e86a80ed450264a926d66affa25ed9,
+        type: 3}
+    - target: {fileID: 114000010178225904, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: f2e86a80ed450264a926d66affa25ed9,
+        type: 3}
+    - target: {fileID: 114000010178225904, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_Text
+      value: Tebrikler!!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010638755010, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_Text
+      value: Kaybettiniz
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010772849676, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_Text
+      value: Hedef Skor = 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011120731130, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_Text
+      value: "Madalya kazanmak i\xE7in darbe almadan 35 saniye \ni\xE7erisinde hedef
+        skora ula\u015F\u0131n."
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011120731130, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011120731130, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_FontData.m_MinSize
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011120731130, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013780941968, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: f2e86a80ed450264a926d66affa25ed9,
+        type: 3}
+    - target: {fileID: 114000012429892174, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: f2e86a80ed450264a926d66affa25ed9,
+        type: 3}
+    - target: {fileID: 114000012429892174, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_Text
+      value: "M\xFCkemmel!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013780941968, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_Text
+      value: Tebrikler!!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011524414660, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: f2e86a80ed450264a926d66affa25ed9,
+        type: 3}
+    - target: {fileID: 114000012945710638, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_Text
+      value: "M\xFCzik A\xE7\u0131k/Kapal\u0131"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012945710638, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: f2e86a80ed450264a926d66affa25ed9,
+        type: 3}
+    - target: {fileID: 114000011313934748, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: f2e86a80ed450264a926d66affa25ed9,
+        type: 3}
+    - target: {fileID: 114000011313934748, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_Text
+      value: "Ses efektleri A\xE7\u0131k/Kapal\u0131"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011635817898, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: f2e86a80ed450264a926d66affa25ed9,
+        type: 3}
+    - target: {fileID: 114000014066737842, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: f2e86a80ed450264a926d66affa25ed9,
+        type: 3}
+    - target: {fileID: 114000011081491046, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: f2e86a80ed450264a926d66affa25ed9,
+        type: 3}
+    - target: {fileID: 114000011635817898, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_Text
+      value: Skor:0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000014066737842, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_Text
+      value: "Sa\u011Fl\u0131k:0"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011081491046, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_Text
+      value: Zaman:0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011524414660, guid: d119a8e95e456764881ede55186d772c,
+        type: 2}
+      propertyPath: m_Text
+      value: Dondur
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d119a8e95e456764881ede55186d772c, type: 2}
   m_IsPrefabParent: 0

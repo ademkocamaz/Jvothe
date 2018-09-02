@@ -176,6 +176,76 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012992999036, guid: 9852dfe1e52590d40a88054537b2da96,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: f2e86a80ed450264a926d66affa25ed9,
+        type: 3}
+    - target: {fileID: 114000010107596152, guid: 9852dfe1e52590d40a88054537b2da96,
+        type: 2}
+      propertyPath: scrollSpeed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012332629814, guid: 9852dfe1e52590d40a88054537b2da96,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: f2e86a80ed450264a926d66affa25ed9,
+        type: 3}
+    - target: {fileID: 114000012332629814, guid: 9852dfe1e52590d40a88054537b2da96,
+        type: 2}
+      propertyPath: m_Text
+      value: "Credits\n\n\nProgrammer\n-----------------------\nAdem Kocamaz\nJamel
+        Green\n\nArt\n-----------------------\nShips - Bevouliin\nProjectiles - Bevouliin\nEnemies
+        - Bevouliin\nBackgrounds - Bevouliin\nCoins/Hearts - Bevouliin\n\nYou can
+        find Bevouliin At Bevouliin.com\n\nMedals - \nBuch (http://opengameart.org/users/buch)\n\nExplosion
+        effects - Ansimuz \n(http://opengameart.org/users/ansimuz)\n\nButtons/UI -
+        pzUH (gameart2d.com)\n\nMusic \n-----------------------\nStrut (Main Menu)
+        - Chasersgaming\n\nUnexpected Trouble (Sunny) - Section31\nCracked out robot
+        (Misty) - Section31\nPuppet warehouse (Space) - Section31\nReflection of progress
+        (Desert) - Section31\nThe gears of progress (Dawn) - Section31 \nWinning the
+        race (Mountain) - Section 31\n\nDigital acid (Glitch Hop) (Ghosts) - Xenocity\n\nInternal
+        reflection (Credits) - Section31 \n\nYou can find section31 at s31tech.org,
+        \nXenocity at opengameart.org/users/xenocity\nand Chasersgaming at opengameart.org/users/chasersgaming"
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012374176942, guid: 9852dfe1e52590d40a88054537b2da96,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -2109.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010661935374, guid: 9852dfe1e52590d40a88054537b2da96, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3168
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010661935374, guid: 9852dfe1e52590d40a88054537b2da96, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010661935374, guid: 9852dfe1e52590d40a88054537b2da96, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012374176942, guid: 9852dfe1e52590d40a88054537b2da96,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000011724894854, guid: 9852dfe1e52590d40a88054537b2da96,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013839413520, guid: 9852dfe1e52590d40a88054537b2da96,
+        type: 2}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013839413520, guid: 9852dfe1e52590d40a88054537b2da96,
+        type: 2}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9852dfe1e52590d40a88054537b2da96, type: 2}
   m_IsPrefabParent: 0
@@ -360,21 +430,19 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 46238fb1ad7a7a84ba8954c1c860994c, type: 3}
+    m_Font: {fileID: 12800000, guid: f2e86a80ed450264a926d66affa25ed9, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'MainMenu
-
-'
+  m_Text: "Ana Men\xFC\n"
 --- !u!222 &842353560
 CanvasRenderer:
   m_ObjectHideFlags: 0

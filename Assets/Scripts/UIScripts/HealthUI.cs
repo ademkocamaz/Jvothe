@@ -21,7 +21,7 @@ public class HealthUI : MonoBehaviour {
             player = p.GetComponent<PlayerHealth>();
 
         //initialise text with players health
-        text.text = "Health: " + player.GetHealth;
+        text.text = "Sağlık: " + player.GetHealth;
 	}
 
     void OnEnable()
@@ -33,7 +33,7 @@ public class HealthUI : MonoBehaviour {
 
     void UpdateText()
     {
-        text.text = "Health: " + player.GetHealth;
+        text.text = "Sağlık: " + player.GetHealth;
     }
 
     void OnDisable()
